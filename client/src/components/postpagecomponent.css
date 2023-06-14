@@ -1,0 +1,174 @@
+.postpage_c_main {
+    width: calc(100vw - 23.9vw);
+    min-height: 100vh;
+    position: absolute;
+    left: 23.9vw;
+    top: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.postpage_c_container {
+    background-color: white;
+    width: 60vw;
+    min-height: 90vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgb(168, 168, 168);
+}
+
+.postpage_c_user {
+    width: 57vw;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 0.3rem;
+}
+
+.postpage_c_user img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postpage_c_post {
+    width: 57vw;
+    height: auto;
+    max-height: 90vh;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.postpage_c_options {
+    width: 57vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.postpage_c_popup {
+    width: 100px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    right: 3vw;
+    top: 13vh;
+    box-shadow: 2px 2px 5px rgb(176, 176, 176);
+    border-radius: 10px;
+}
+
+.postpage_c_edited {
+    width: auto;
+    height: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+
+.postpage_c_save {
+    background-color: blue;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.popup  {
+    width: 100px;
+    padding: 0.3rem 1rem;
+    background-color: white;
+    border: none;
+    color: blue;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+
+.postpage_c_post img {
+    width: calc(100vw - 23.9vw);
+    height: 70vh;
+    object-fit: contain;
+}
+
+li {
+    list-style: none;
+}
+
+.postpage_c_post p {
+    width: 51vw;
+    padding: 0.1rem;
+}
+
+.postpage_c_likes {
+    width: 57vw;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.7rem;
+    margin-top: 1rem;
+    
+}
+
+.heart {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.heart_filled {
+    width: 30px;
+    height: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 786px) {
+    .postpage_c_post img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .postpage_c_user img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .postpage_c_popup {
+        top: 56vh;
+    }
+}

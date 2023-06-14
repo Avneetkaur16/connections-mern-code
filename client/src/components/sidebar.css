@@ -1,0 +1,89 @@
+.sidebar_main{
+    max-width: 23.9vw;
+    height: 100vh;
+    background: linear-gradient(#ee0979, #ff6a00);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+.userinfo {
+    max-width: 25vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.user_image_container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.user_image {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.userdata {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.userdata_fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links h5 {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.links h5:active {
+    color: rgb(223, 0, 101);
+}
+
+h2 {
+    padding: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .user_image {
+        height: 150px;
+        width: 150px;
+        margin-left: 12%;
+    }
+
+    .userdata_fields {
+        width: 3vw;
+        font-size: 10px;
+
+    }
+}

@@ -1,0 +1,56 @@
+.login_container {
+    height: 50vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.login_button:disabled {
+    width: 90%;
+    margin: 1.5rem;
+    padding: 15px 5px;
+    border-radius: 20px;
+    background-color: #ff9b53;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login_button:enabled {
+    background-color: #ff6a00;
+    width: 90%;
+    margin: 1.5rem;
+    padding: 15px 5px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.login_button:hover {
+    background-color: #fa8029;
+    outline: none;
+}
+
+.register_main p {
+    color: white;
+}
+
+.register_main a {
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sign_in {
+    color: white;
+    font-size: 23px;
+    padding: 0;
+}

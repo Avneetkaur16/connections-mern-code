@@ -1,0 +1,47 @@
+.navbar_main {
+    width: calc(100vw - 25vw);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(47, 10, 68);
+    z-index: 99;
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+    left: 23.9vw;
+}
+
+.search {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search_icon {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.add_post {
+    border: none;
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    background: linear-gradient(to right,#ee0979, #ff6a00);
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}

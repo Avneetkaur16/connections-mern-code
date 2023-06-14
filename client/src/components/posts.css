@@ -1,0 +1,14 @@
+.posts_container {
+    max-width: calc(100vw - 23.9vw);
+    min-height: calc(100vh - 10vh);
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2.5rem;
+    gap: 1rem;
+    overflow-y: auto;
+    
+}

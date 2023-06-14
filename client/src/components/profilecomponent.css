@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.profile_c_main {
+    width: calc(100vw - 23.9vw);
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 23.9vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: white
+}
+
+.profile_c_container {
+    width: calc(100vw - 23.9vw);
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+}
+
+.profile_c_images {
+    width: inherit;
+    height: 33vh;
+}
+
+.cover {
+    width: inherit;
+    height: 33vh;
+    object-fit: cover;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: -10%;
+    margin-left: 41%;
+}
+
+.profile_c_info_container {
+    width: inherit;
+    height: 21vh;
+    margin-top: 105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 13rem;
+    padding: 1rem;
+}
+
+.profile_c_name {
+    width: inherit;
+    height: auto;
+    position: absolute;
+    top: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+}
+
+.profile_c_info {
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.7rem;
+}
+
+.profile_c_data {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    gap: 0.5rem;
+    padding: 0.3rem 2rem;
+    cursor: pointer;
+}
+
+.profile_c_posts {
+    width: calc(100vw - 23.9vw);
+    background-color: white;
+    position: absolute;
+    top: 68vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2.5rem;
+}
+
+.follow {
+    width: 150px;
+    padding: 0.4rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    color: #ee0979;
+    font-weight: 700;
+    box-shadow: 1px 1px 5px rgb(176, 176, 176);
+}
+
+.following {
+    width: 150px;
+    padding: 0.4rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #ee0979;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 786px) {
+    .profile{
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile_c_name {
+        left: 5%;
+        bottom: 30%;
+        font-size: 11px;
+    }
+
+    .profile_c_info {
+        width: 15vw;
+        height: 25vh;
+        
+    }
+
+    .profile_c_container {
+        height: 75vh;
+    }
+
+    .profile_c_data {
+        width: 200px;
+        margin-top: 0.5rem;
+        padding: 0.3rem 0.8rem;
+        font-size: 13px;
+        gap: 0.8rem;
+        
+    }
+
+    .profile_c_posts {
+        top: 75vh;
+    }
+}

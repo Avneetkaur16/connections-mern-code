@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.register_main {
+    background: linear-gradient(#ee0979, #ff6a00);
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.register_container {
+    height: 73vh;
+    width: 25vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.register_button {
+    width: 90%;
+    padding: 10px 5px;
+    margin: 0.7rem;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #ee0979;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.register_button:hover {
+    background-color:#ff1084;
+}
+
+.register_main p {
+    color: white;
+}
+
+.register_main a {
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sign_up {
+    padding: 0;
+    color: white;
+}
