@@ -4,6 +4,7 @@ Social media MERN Stack Application Code
 ## Server (Node JS, Express Js, MongoDB, Mongoose, Bcrypt, JWT)
 ## Client (React JS, Context API)
 ### Project Link: https://shy-puce-hermit-crab-gown.cyclic.app/
+### Project Video Link: https://drive.google.com/drive/u/1/home
 
 ### Routes
 1. Auth Routes
